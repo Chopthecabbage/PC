@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Select_Payment</class>
+ <widget class="QDialog" name="Select_Payment">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>295</width>
+    <height>185</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>271</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;HY견고딕&quot;;</string>
+   </property>
+   <property name="title">
+    <string>결제수단</string>
+   </property>
+   <widget class="QPushButton" name="exit_Btn">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>110</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>뒤 로</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>232</width>
+      <height>62</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>30</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="cash_Btn">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;HY견고딕&quot;;</string>
+       </property>
+       <property name="text">
+        <string>현  금</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="credit_Btn">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;HY견고딕&quot;;</string>
+       </property>
+       <property name="text">
+        <string>카  드</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
